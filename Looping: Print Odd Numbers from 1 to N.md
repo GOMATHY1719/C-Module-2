@@ -1,4 +1,8 @@
 ## Looping: Print Odd Numbers from 1 to N in C
+
+### Name: GOMATHY G
+### Reg No: 212223250002
+
 ## Aim
 To write a C program that prints all odd numbers from 1 to n, where n is an integer input by the user.
 
@@ -16,8 +20,24 @@ If i is odd, print its value.
 Increment i to skip the next even number (can also increment by 2 for simplicity).
 
 ## Program
-Add code here
+```
+#include <stdio.h>
+int main() 
+{
+    int n, i;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+    printf("Odd numbers from 1 to %d are:\n", n);
+    for (i = 1; i <= n; i += 2) {
+        printf("%d ", i);
+    }
 
+    printf("\n");
+    return 0;
+}
+```
 ## Output
+![image](https://github.com/user-attachments/assets/545f05ad-a93d-485b-9970-02a66ed70821)
 
 ## Result
+ C program that prints all odd numbers from 1 to n, where n is an integer input by the user is written
